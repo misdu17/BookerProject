@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Booker Project" preserve-order="true">
+	<test name="Booker Project Test" verbose="2" preserve-order="true">
+		<classes>
+			<class name="bp.tests.TestLoginPage"></class>
+			<class name="bp.tests.TestContactPage"></class>
+			<class name="bp.tests.TestBlogPage"></class>
+		</classes>
+	</test>
+</suite>

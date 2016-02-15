@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Booker Project]">
+  <test verbose="2" name="Booker Project Test">
+    <classes>
+      <class name="bp.tests.TestLoginPage"/>
+      <class name="bp.tests.TestContactPage"/>
+      <class name="bp.tests.TestBlogPage"/>
+    </classes>
+  </test> <!-- Booker Project Test -->
+  <test name="Booker Project Test(failed)">
+    <classes>
+      <class name="bp.tests.TestBlogPage">
+        <methods>
+          <include name="testBlogPageHeader"/>
+        </methods>
+      </class> <!-- bp.tests.TestBlogPage -->
+      <class name="bp.tests.TestLoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bp.tests.TestLoginPage -->
+    </classes>
+  </test> <!-- Booker Project Test(failed) -->
+</suite> <!-- Failed suite [Booker Project] -->
