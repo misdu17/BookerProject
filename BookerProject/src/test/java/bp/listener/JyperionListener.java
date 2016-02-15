@@ -235,7 +235,7 @@ public class JyperionListener implements ITestListener{
 		
 		Paragraph p = new Paragraph(context.getName() + " Result (" + environment + ")",
 				FontFactory.getFont(FontFactory.HELVETICA, 20, Font.BOLD, new Color(0, 0, 255)));
-		Paragraph p2 = new Paragraph("By: Shakil Khan",
+		Paragraph p2 = new Paragraph("By: Md Jamaddar",
 				FontFactory.getFont(FontFactory.HELVETICA, 12, Font.ITALIC, new Color(0, 0, 0)));
 		
 		try {
