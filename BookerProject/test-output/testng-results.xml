@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Booker Project" duration-ms="55566" started-at="2016-02-15T05:11:29Z" finished-at="2016-02-15T05:12:25Z">
+  <suite name="Booker Project" duration-ms="52382" started-at="2016-02-15T06:16:03Z" finished-at="2016-02-15T06:16:55Z">
     <groups>
     </groups>
-    <test name="Booker Project Test" duration-ms="55566" started-at="2016-02-15T05:11:29Z" finished-at="2016-02-15T05:12:25Z">
+    <test name="Booker Project Test" duration-ms="52382" started-at="2016-02-15T06:16:03Z" finished-at="2016-02-15T06:16:55Z">
       <class name="bp.tests.TestContactPage">
-        <test-method status="PASS" signature="testSendContactRequest()[pri:0, instance:bp.tests.TestContactPage@216f1cbc]" name="testSendContactRequest" duration-ms="11193" started-at="2016-02-15T00:12:04Z" finished-at="2016-02-15T00:12:15Z">
+        <test-method status="PASS" signature="testSendContactRequest()[pri:0, instance:bp.tests.TestContactPage@5c78bca]" name="testSendContactRequest" duration-ms="9269" started-at="2016-02-15T01:16:30Z" finished-at="2016-02-15T01:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendContactRequest -->
       </class> <!-- bp.tests.TestContactPage -->
       <class name="bp.tests.TestLoginPage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:bp.tests.TestLoginPage@6b249338]" name="setUp" is-config="true" duration-ms="17494" started-at="2016-02-15T00:11:30Z" finished-at="2016-02-15T00:11:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bp.tests.TestLoginPage@2e3d787c]" name="setUp" is-config="true" duration-ms="12866" started-at="2016-02-15T01:16:03Z" finished-at="2016-02-15T01:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:bp.tests.TestLoginPage@6b249338]" name="testInvalidLogin" duration-ms="6132" started-at="2016-02-15T00:11:48Z" finished-at="2016-02-15T00:11:54Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:bp.tests.TestLoginPage@2e3d787c]" name="testInvalidLogin" duration-ms="3680" started-at="2016-02-15T01:16:16Z" finished-at="2016-02-15T01:16:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testRetriveCredential()[pri:0, instance:bp.tests.TestLoginPage@6b249338]" name="testRetriveCredential" duration-ms="449" started-at="2016-02-15T00:11:54Z" depends-on-methods="bp.tests.TestLoginPage.testInvalidLogin" finished-at="2016-02-15T00:11:54Z">
+        <test-method status="PASS" signature="testRetriveCredential()[pri:0, instance:bp.tests.TestLoginPage@2e3d787c]" name="testRetriveCredential" duration-ms="293" started-at="2016-02-15T01:16:20Z" depends-on-methods="bp.tests.TestLoginPage.testInvalidLogin" finished-at="2016-02-15T01:16:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRetriveCredential -->
-        <test-method status="PASS" signature="testGetStartedLink()[pri:1, instance:bp.tests.TestLoginPage@6b249338]" name="testGetStartedLink" duration-ms="9384" started-at="2016-02-15T00:11:54Z" depends-on-methods="bp.tests.TestLoginPage.testInvalidLogin" finished-at="2016-02-15T00:12:04Z">
+        <test-method status="PASS" signature="testGetStartedLink()[pri:1, instance:bp.tests.TestLoginPage@2e3d787c]" name="testGetStartedLink" duration-ms="9477" started-at="2016-02-15T01:16:20Z" depends-on-methods="bp.tests.TestLoginPage.testInvalidLogin" finished-at="2016-02-15T01:16:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStartedLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:bp.tests.TestLoginPage@6b249338]" name="tearDown" is-config="true" duration-ms="232" started-at="2016-02-15T00:12:25Z" finished-at="2016-02-15T00:12:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bp.tests.TestLoginPage@2e3d787c]" name="tearDown" is-config="true" duration-ms="229" started-at="2016-02-15T01:16:55Z" finished-at="2016-02-15T01:16:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- bp.tests.TestLoginPage -->
       <class name="bp.tests.TestBlogPage">
-        <test-method status="FAIL" signature="testBlogPageHeader()[pri:0, instance:bp.tests.TestBlogPage@5c78bca]" name="testBlogPageHeader" duration-ms="8307" started-at="2016-02-15T00:12:15Z" finished-at="2016-02-15T00:12:23Z">
+        <test-method status="FAIL" signature="testBlogPageHeader()[pri:0, instance:bp.tests.TestBlogPage@6faa7dbc]" name="testBlogPageHeader" duration-ms="14446" started-at="2016-02-15T01:16:39Z" finished-at="2016-02-15T01:16:53Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [The Booker Bloged] but found [The Booker Blog]]]>

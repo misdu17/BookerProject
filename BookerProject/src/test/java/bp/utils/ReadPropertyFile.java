@@ -11,6 +11,8 @@ public class ReadPropertyFile {
 	public String qaPropertyFilePath  = System.getProperty("user.dir") + "/src/test/java/bp/properties/qaTest.properties";
 	
 	public String getPropertyValue(String propertyKey, String propertyFilePath){
+		System.out.println(envPropertyFilePath);
+		System.out.println(qaPropertyFilePath);
 		String value = "";
 		try{
 			File file = new File(propertyFilePath);

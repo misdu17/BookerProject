@@ -10,17 +10,17 @@
   </test> <!-- Booker Project Test -->
   <test name="Booker Project Test(failed)">
     <classes>
-      <class name="bp.tests.TestBlogPage">
-        <methods>
-          <include name="testBlogPageHeader"/>
-        </methods>
-      </class> <!-- bp.tests.TestBlogPage -->
       <class name="bp.tests.TestLoginPage">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- bp.tests.TestLoginPage -->
+      <class name="bp.tests.TestBlogPage">
+        <methods>
+          <include name="testBlogPageHeader"/>
+        </methods>
+      </class> <!-- bp.tests.TestBlogPage -->
     </classes>
   </test> <!-- Booker Project Test(failed) -->
 </suite> <!-- Failed suite [Booker Project] -->

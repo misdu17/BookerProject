@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Booker_Project">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -242,7 +242,7 @@
         </div> <!-- panel Booker_Project -->
         <div panel-name="test-xml-Booker_Project" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/Zakia/Documents/workspace/BookerProject/testng.xml</span>
+            <span class="header-content">/Users/Zakia/git/localBookerProject/BookerProject/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -256,21 +256,6 @@
       &lt;class name=&quot;bp.tests.TestBlogPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Booker Project Test --&gt;
-  &lt;test name=&quot;Booker Project Test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;bp.tests.TestBlogPage&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;testBlogPageHeader&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- bp.tests.TestBlogPage --&gt;
-      &lt;class name=&quot;bp.tests.TestLoginPage&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;setUp&quot;/&gt;
-          &lt;include name=&quot;tearDown&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- bp.tests.TestLoginPage --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Booker Project Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Booker Project --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -283,9 +268,6 @@
             <ul>
               <li>
                 <span class="test-name">Booker Project Test (3 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Booker Project Test(failed) (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -313,30 +295,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSendContactRequest')
-data.setCell(0, 2, 'bp.tests.TestContactPage')
-data.setCell(0, 3, 11193);
+data.setCell(0, 1, 'testBlogPageHeader')
+data.setCell(0, 2, 'bp.tests.TestBlogPage')
+data.setCell(0, 3, 14446);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGetStartedLink')
 data.setCell(1, 2, 'bp.tests.TestLoginPage')
-data.setCell(1, 3, 9384);
+data.setCell(1, 3, 9477);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testBlogPageHeader')
-data.setCell(2, 2, 'bp.tests.TestBlogPage')
-data.setCell(2, 3, 8307);
+data.setCell(2, 1, 'testSendContactRequest')
+data.setCell(2, 2, 'bp.tests.TestContactPage')
+data.setCell(2, 3, 9269);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testInvalidLogin')
 data.setCell(3, 2, 'bp.tests.TestLoginPage')
-data.setCell(3, 3, 6132);
+data.setCell(3, 3, 3680);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testRetriveCredential')
 data.setCell(4, 2, 'bp.tests.TestLoginPage')
-data.setCell(4, 3, 449);
+data.setCell(4, 3, 293);
 window.suiteTableData['Booker_Project']= { tableData: data, tableDiv: 'times-div-Booker_Project'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Booker_Project">
               </div> <!-- times-div-Booker_Project -->
             </div> <!-- times-div -->
@@ -387,22 +369,22 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testInvalidLogin</span>
-                <span class="method-start">17518 ms</span>
+                <span class="method-start">12874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRetriveCredential</span>
-                <span class="method-start">23732 ms</span>
+                <span class="method-start">16568 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetStartedLink</span>
-                <span class="method-start">24185 ms</span>
+                <span class="method-start">16863 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bp.tests.TestContactPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testSendContactRequest</span>
-                <span class="method-start">33571 ms</span>
+                <span class="method-start">26343 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -411,14 +393,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testBlogPageHeader</span>
-                <span class="method-start">44765 ms</span>
+                <span class="method-start">35614 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bp.tests.TestLoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54532 ms</span>
+                <span class="method-start">51467 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
