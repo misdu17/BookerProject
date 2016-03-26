@@ -43,7 +43,7 @@ public class TestBase extends Driver{
 		blogPage        = PageFactory.initElements(driver, BlogPage.class);
 	}
 
-	@AfterTest()
+	//@AfterTest()
 	public void tearDown() {
 		driver.quit();
 	}

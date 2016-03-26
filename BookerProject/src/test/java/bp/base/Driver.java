@@ -12,14 +12,13 @@ public class Driver {
 	public static ReadPropertyFile myTestProperty = new ReadPropertyFile();
 
 	public void setDriver(String browserType) {
-		switch (browserType) {
-		case "chrome":
+		if (browserType.equals("chrome")) {
 			driver = initChromeDriver();
-			break;
-		case "firefox":
+
+		} else if (browserType.equals("firefox")) {
 			driver = initFirefoxDriver();
-			break;
-		default:
+
+		} else {
 			System.out.println("browser : " + browserType + " is invalid, Launching Firefox as browser of choice..");
 			driver = initFirefoxDriver();
 		}

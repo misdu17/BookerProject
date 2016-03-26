@@ -7,9 +7,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadPropertyFile {
-	public String envPropertyFilePath  = System.getProperty("user.dir") + "/src/test/java/bp/properties/egEnvTest.properties";
-	public String qaPropertyFilePath  = System.getProperty("user.dir") + "/src/test/java/bp/properties/qaTest.properties";
-	
+	public String envPropertyFilePath  = System.getProperty("user.dir") + "/BookerProject/src/test/java/bp/properties/egEnvTest.properties";
+
+	public String qaPropertyFilePath  = System.getProperty("user.dir") + "/BookerProject/src/test/java/bp/properties/qaTest.properties";
+	//Users/Zakia/IntelliJProjects/BookerProject/BookerProject/src/test/java/bp/properties/egEnvTest.properties
 	public String getPropertyValue(String propertyKey, String propertyFilePath){
 		System.out.println(envPropertyFilePath);
 		System.out.println(qaPropertyFilePath);
@@ -33,12 +34,10 @@ public class ReadPropertyFile {
 	
 	public String getProperty(String environment, String propertyKey) {
 		String value = null;
-		switch (environment) {
-		case "QA":
+		if (environment.equals("QA")) {
 			value = getPropertyValue(propertyKey, qaPropertyFilePath);
-			break;
-		default:
-			break;
+
+		} else {
 		}
 		return value;
 	}

@@ -7,7 +7,7 @@ import bp.base.PageBase;
 
 public class MenuBarPage extends PageBase{
 	
-	@FindBy(linkText = "Log In")
+	@FindBy(linkText = "Login")
 	public WebElement loginLink;
 	
 	@FindBy(css = "img[src='http://www.booker.com/sites/booker/files/logo-hi-be-free.jpg']")
@@ -24,4 +24,9 @@ public class MenuBarPage extends PageBase{
 	
 	@FindBy(linkText = "Blog")
 	public WebElement blogLink;
+
+	@FindBy(css = "button[class='close']")
+	public WebElement aboutBookerFreeSample;
+
+
 }

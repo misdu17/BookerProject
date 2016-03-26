@@ -9,6 +9,12 @@ public class TestLoginPage extends TestBase{
 	//test login with invalid credentials 
 	@Test()
 	public void testInvalidLogin(){
+		menuBarPage.aboutBookerFreeSample.click();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		menuBarPage.loginLink.click();
 		loginPage.loginPageAccountNameField.sendKeys("test");
 		loginPage.loginPageUserNameField.sendKeys("test");
