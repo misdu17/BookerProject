@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import bp.utils.ReadPropertyFile;
-
+//hello this is syful
 public class Driver {
 	public static WebDriver driver;
 	public String chromDriverPath = System.getProperty("user.dir") + "/src/test/java/bp/remotedriver/";
